@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact us</title>
+
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- slick css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+	<!-- font awesome 5 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/x-icon" href="asset/img/logod.svg">
+
+	<!-- Fancybox -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+	<!-- Animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+	<!-- Scroll Animation -->
+	<link rel="stylesheet" type="text/css" href="asset/css/form_animate/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="asset/css/form_animate/style.css">
+	<link rel="stylesheet" type="text/css" href="asset/css/scroll/animate.min.css">
+
+	<!-- JqueryUi -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+	<!-- Main Css -->
+	<link href="asset/css/style.css" rel="stylesheet">
+	<link href="asset/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Body code start here -->
+<div class="wrapper">
+	<!-- header area-->
+	<header class="header_area">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-2">
+					<div class="logo_area">
+						<a href="index.html"><img class="logos" src="asset/img/logod.svg" alt="logo"></a>
+					</div>
+				</div>
+
+				<div class="col-md-9">
+					<nav class="header_nav_area">
+						<div class="off_can_trigger mobile_show"><i class="fas fa-bars"></i></div>
+						<div class="head_navbar">
+							<span class="off_canvas_close mobile_show"><i class="fas fa-times"></i></span>
+							<ul class="header_menu">
+								<li class="mobile_logo mobile_show"><a href="index.html"><img src="asset/img/logod.svg" alt="Logo"></a></li>
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="about-us.html">ABOUT</a></li>
+								<li><a href="#">BOOK YOUR VISIT</a></li>
+								<li><a href="#">WORK WITH US</a></li>
+								<li class="active"><a href="contact-us.html">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="col-md-1">
+					<div class="header_social">
+						<ul class="head_social_icon">
+							<li class="insta"><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li class="mobile_show calendar"><a href="#"><img src="asset/img/calendar.svg" alt="image"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Mobile Map -->
+	<section class="mobile_map_area mobile_show">
+		<div class="contactmapthum" style="background-image:url('asset/img/map.png')"></div>
+	</section>
+
+	<!-- contact us area -->
+	<section class="contact_us_area" id="contactscroll">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="professional_team_heading_box">
+						<p class="pretitle teampre">BEAUTY AVENUE</p>
+						<h2 class="bent teamtitle">Salons</h2>
+					</div>
+					<div class="team_tab_slide_area">
+						<div class="tab">
+						  <button class="tablinks activatetab" onclick="openCity(event, 'holborn')" id="defaultOpen">Holborn</button>
+						  <button class="tablinks" onclick="openCity(event, 'paddington')">Paddington</button>
+						  <button class="tablinks" onclick="openCity(event, 'westminster')">Westminster</button>
+						</div>
+						<!-- 1st tab content -->
+						<div id="holborn" class="tabcontent opentab">
+							<div class="tabcontent_contact_items">
+								<!-- single contact info -->
+								<div class="single_contact_info">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="contact_info_left_side">
+												<h2 class="bent">HOLBORN</h2>
+												<p>178 GRay’s inn road, wc1x 8ew</p>
+												<p>+44 7 852 41 0606</p>
+												<p class="contact_desc">Our Holborn Salon is a comfortable 6 minutes walk from either Holborn, Chancery Lane, Russell Square or Farringdon on Gray’s Inn Road.</p>
+												<div class="opening_times">
+													<p>Opening times</p>
+													<h4>Monday-F riday: <span>10:00-20:00</span></h4>
+													<h4>Saturday-Sunday: <span>10:00-16:00</span></h4>
+												</div>
+												<div class="treatments_service_area">
+													<p class="treatment_sr_title">Treatments &amp; Services</p>
+													<!-- single book -->
+													<div class="treatment_service_text d-flex justify-content-between">
+														<div class="treatment_text_title">
+															<h4>Nails</h4>
+														</div>
+														<div class="treatment_text_btn">
+															<a href="#">BOOK</a>
+														</div>
+													</div>
+													<!-- single book -->
+													<div class="treatment_service_text d-flex justify-content-between">
+														<div class="treatment_text_title">
+															<h4>Lashes</h4>
+														</div>
+														<div class="treatment_text_btn">
+															<a href="#">BOOK</a>
+														</div>
+													</div>
+													<!-- single book -->
+													<div class="treatment_service_text d-flex justify-content-between">
+														<div class="treatment_text_title">
+															<h4>Semi-permanent makeup</h4>
+														</div>
+														<div class="treatment_text_btn">
+															<a href="#">BOOK</a>
+														</div>
+													</div>
+													<!-- single book -->
+													<div class="treatment_service_text d-flex justify-content-between">
+														<div class="treatment_text_title">
+															<h4>Laser hair removal</h4>
+														</div>
+														<div class="treatment_text_btn">
+															<a href="#">BOOK</a>
+														</div>
+													</div>
+													<!-- single book -->
+													<div class="treatment_service_text d-flex justify-content-between">
+														<div class="treatment_text_title">
+															<h4>Anti-ageing treatments</h4>
+														</div>
+														<div class="treatment_text_btn">
+															<a href="#">BOOK</a>
+														</div>
+													</div>
+													<!-- single book -->
+													<div class="treatment_service_text d-flex justify-content-between">
+														<div class="treatment_text_title">
+															<h4>Weight loss treatments</h4>
+														</div>
+														<div class="treatment_text_btn">
+															<a href="#">BOOK</a>
+														</div>
+													</div>
+													<!-- single book -->
+													<div class="treatment_service_text d-flex justify-content-between">
+														<div class="treatment_text_title">
+															<h4>Prosecco bar</h4>
+														</div>
+														<div class="treatment_text_btn">
+															<a href="#">BOOK</a>
+														</div>
+													</div>
+												</div>
+												<!-- chat btn -->
+												<div class="slide_btn chat_btn">
+													<a href="#">CHAT TO US</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="contact_map_right_side">
+												<div class="contactmapthum" style="background-image:url('asset/img/map.png')"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 2nd tab content -->
+						<div id="paddington" class="tabcontent text-center">
+							<h2 class="bent">No Item</h2>
+						</div>
+						<!-- 3rd tab content -->
+						<div id="westminster" class="tabcontent text-center">
+							<h2 class="monts">No Item Yet</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer_logo text-center">
+						<a href="index.html"><img src="asset/img/footerlogo.png" alt="Footer_logo"></a>
+					</div>
+					<div class="footer_menu_area">
+						<ul class="footer_menu d-flex justify-content-center">
+							<li><a href="privacy-policy.html">Privacy and Cookie Policy <span>|</span></a></li>
+							<li><a href=""> Locations <span>|</span></a></li>
+							<li><a href="#">Work with us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom_details_text">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="footer_bottom_left_side footer_info_text">
+							<p class="beautyaveltd">Beauty Avenue Ltd.</p>
+							<p class="regiofficetext">Registered Office: 68 Topmast Point, London, <span>E14 8SN</span> Registered in England & Wales No. 7494420 VAT <span>No. 112 9274 30</span></p>
+							<p class="copyright">© 2021. BEAUTY AVENUE. BEAUTY AVENUE IS A TRADEMARK OF BEAUTY AVENUE LTD.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="footer_bottom_right_side footer_info_text text-end">
+							<p>ADDRESS<br>Nugent Terrace, St Johns Wood<br>London NW8 9BA</p>
+							<div class="maplink"><a href="#">View Map</a></div>
+							<div class="footer_phone"><a href="#">+44 (0)20 5555 8000</a></div>
+							<div class="footer_mail"><a href="#">hello@beautyave.co</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</div>
+<!-- End body code start here -->
+
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<!-- bootstrap bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jquery ui -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+	// Scroll management js
+	(function($){
+	  "use strict";
+	  jQuery(document).ready(function(){
+	   $("#contactscroll").listenedByScroll("animated animate__zoomIn");
+	  });
+
+	}(jQuery));
+</script>
+
+<!-- fancybox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<!-- Scroll Animation -->
+<script src="asset/js/form_animate/jquery.validate.min.js"></script>
+<script src="asset/js/form_animate/formAnimation.js"></script>
+<script src="asset/js/form_animate/shake.js"></script>
+<script type="text/javascript" src="asset/js/scroll/jquery.byscroll.js"></script>
+<!-- slick js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!-- main js -->
+<script src="asset/js/custom.js"></script>
+
+</body>
+</html>

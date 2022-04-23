@@ -1,0 +1,460 @@
+@media only screen and (min-width: 1750px){
+	.slideshow_left_text_box_area {
+	    top: 33%;
+	    margin-top: -33px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	/*home page*/
+	.slideshow_left_text_box_area{
+		left: 75px;
+	}
+	.slideshow_left_text_box {
+	    padding: 30px;
+	    max-width: 610px;
+	}
+	.tabcontent_team_items .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .tabcontent_team_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i{
+		left: -5px;
+	}
+	.tabcontent_team_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: -5px;
+	}
+
+	/*portfolio page*/
+	.about_portfolio_items .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .about_portfolio_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: 10px;
+	}
+	.about_portfolio_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: 10px;
+	}
+
+	/*about us page*/
+	.about_us_area .about_port_single_item, section#you_do_you{
+		margin: 0;
+	}
+	.abt_commont_mr {
+	    margin: 50px 0 130px;
+	}
+	.love_to_work_text, .love_to_work_text.beboss_block {
+	    padding: 26px;
+	}
+	section#feel_appreciated {
+	    margin-bottom: 50px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*common css*/
+	body{
+		overflow-x: hidden;
+	}
+	h2.monts{
+		font-size: 32px;
+	}
+	h2.bent{
+		font-size: 36px;
+	}
+	p{
+		line-height: 21px;
+	}
+	.header_area.fixed .logo_area {
+	    width: 120px;
+	}
+	ul.header_menu li a{
+		font-size: 13px;
+	}
+
+	/*Home page*/
+	.slideshow_left_text_box_area {
+	    position: inherit;
+	}
+	.slideshow_left_text_box {
+	    max-width: 100%;
+	}
+	.beautyave_slideshow_area .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .beautyave_slideshow_area .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    top: 30%;
+	    margin-top: -30px;
+	}
+	/*for privacy arrow*/
+	.beautyave_slideshow_area.privacy_slider .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .beautyave_slideshow_area.privacy_slider .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    top: 50%;
+	    left: 20px;
+	    margin-top: -16px;
+	}
+	.beautyave_slideshow_area.privacy_slider .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: 20px;
+	}
+	.exclusive_nailbar_area {
+	    margin: 85px 0 60px;
+	}
+	.exclusive_nailbar_left_side, .ethical_right_side {
+	    padding: 15px 30px;
+	    background: #fff;
+	}
+	.exclusive_nailbar_right_side::before, .ethical_left_side::before{
+		content: none;
+	}
+	.exclusive_nailbar_right_side, .ethical_left_side{
+		margin: 0;
+	}
+	.professional_team_member_area {
+	    margin-top: 145px;
+	}
+	.tabcontent_team_items .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .tabcontent_team_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i{
+		left: -7px;
+	}
+	.tabcontent_team_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: -7px;
+	}
+	.before_footer_img{
+		margin-top: 85px;
+	}
+
+	/*About us page*/
+	.love_to_work_text.beboss_block {
+	    padding: 50px 38px 32px;
+	}
+	.about_us_area .about_port_single_item, section#you_do_you{
+		margin: 0;
+	}
+	.abt_commont_mr {
+	    margin: 50px;
+	}
+	.love_to_work_text, .love_to_work_text.beboss_block {
+	    padding: 26px;
+	}
+	section#feel_appreciated {
+	    margin-bottom: 50px;
+	}
+
+	/*contact us page*/
+	.single_contact_info .col-md-6 {
+	    width: 100%;
+	}
+	.contact_map_right_side {
+	    text-align: center;
+	}
+
+	/*portfolio page*/
+	.about_portfolio_item_text {
+	    padding: 35px;
+	}
+	.about_portfolio_items .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .about_portfolio_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: 10px;
+	}
+	.about_portfolio_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: 10px;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+	/*portfolo page*/
+	.logo_area{
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	/*common css*/
+	body{
+		overflow-x: hidden;
+	}
+	h2.monts{
+		font-size: 32px;
+	}
+	h2.bent{
+		font-size: 36px;
+	}
+	p{
+		line-height: 21px;
+	}
+	.mobile_show{
+		display: block;
+	}
+
+	/*==== Header Area css ======*/
+	.header_area {
+	    position: relative;
+	}
+	.head_navbar {
+	    position: absolute;
+	    width: 100%;
+	    left: -100%;
+	    top: 0;
+	    transition: 0.5s;
+	    z-index: 99999999;
+	    height: 100vh;
+	    background: #272525;
+	}
+	.head_navbar.active{
+		left: 0;
+	}
+	.header_area.fixed .logo_area{
+		margin: 0 auto;
+	}
+	span.off_canvas_close {
+	    position: absolute;
+	    top: 15px;
+	    right: 25px;
+	    font-size: 23px;
+	    color: #D1B587;
+	}
+	ul.header_menu{
+		background: #272525;
+	    flex-direction: column;
+	    height: 100vh;
+	    text-align: center;
+	    justify-content: inherit;
+	}
+	ul.header_menu li a{
+		display: inline-block;
+		color: #D1B587;
+		margin: 10px 0;
+	}
+	li.mobile_logo{
+		max-width: 170px;
+    	margin: 0 auto;
+    	padding-bottom: 20px;
+	}
+	.header_area .col-md-2 {
+	    width: 40%;
+	    order: 2;
+	}
+	.header_area .col-md-9 {
+	    width: 30%;
+	    order: 1;
+	    padding-left: 25px;
+	}
+	.header_area .col-md-1 {
+	    width: 30%;
+	    order: 3;
+	    padding-right: 30px;
+	}
+	.off_can_trigger i {
+	  background: #B39466;
+	  background: -webkit-linear-gradient(to right, #B39466, #E3C89A); 
+	  background: linear-gradient(180deg, #E3C89A 0%, #B39466 100%);
+	  -webkit-background-clip: text;
+	  background-clip: text;
+	  color: transparent;
+	  font-size: 22px;
+	  padding: 5px;
+	}
+	.header_area.fixed ul.head_social_icon {
+	    padding-right: 10px;
+	}
+	li.insta {
+	    display: none;
+	}
+	li.calendar a {
+	    margin-top: -5px;
+	}
+
+	/*======= Footer Area ========*/
+	.before_footer_img {
+	    margin-top: 85px;
+	    margin-bottom: 0;
+	}
+	.before_footer_img .col-md-12{
+	    padding:0;
+	}
+	.footer_area.if_home_footer{
+		padding: 0;
+	}
+	.footer_area {
+	    padding: 45px 0 60px !important;
+	}
+	ul.footer_menu {
+	    flex-direction: column;
+	    text-align: center;
+	    margin: 10px 0;
+	}
+	ul.footer_menu li a span {
+	    display: none;
+	}
+	ul.footer_menu li a {
+	    margin-top: 15px;
+	}
+	.footer_bottom_left_side{
+		margin: 0 auto;
+	}
+	.footer_bottom_details_text {
+	    text-align: center;
+	}
+	.footer_bottom_details_text .col-md-6:first-child, .single_contact_info .col-md-6:first-child {
+	    order: 2;
+	}
+	.footer_bottom_right_side {
+	    text-align: center !important;
+	}
+	.maplink {
+	    margin: 45px 0;
+	}
+	.footer_mail {
+	    margin: 15px 0 50px;
+	}
+	p.regiofficetext span {
+	    display: block;
+	}
+
+	/*Holding page*/
+	.holding_bg_video video{
+		width: 100%;
+		height: auto;
+	}
+
+	/*Home page*/
+	.beautyave_slideshow_area .container{
+	    padding: 0;
+	}
+	.beautyave_slideshow_area .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .beautyave_slideshow_area .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    top: 16%;
+	    left: 25px;
+	    margin-top: -16px;
+	}
+	.beautyave_slideshow_area .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: 25px;
+	}
+	/*for privacy arrow*/
+	.beautyave_slideshow_area.privacy_slider .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .beautyave_slideshow_area.privacy_slider .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    top: 50%;
+	    left: 20px;
+	    margin-top: -16px;
+	}
+	.beautyave_slideshow_area.privacy_slider .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: 20px;
+	}
+	.slideshow_left_text_box_area{
+		position: inherit;
+	}
+	.exclusive_nailbar_area {
+	    margin: 84px 0 87px;
+	}
+	.imgarrowbox {
+	    display: none;
+	}
+	.exclusive_nailbar_top_sec .col-md-6:first-child {
+	    order: 2;
+	}
+	.exclusive_nailbar_left_side, .ethical_right_side {
+	    padding: 45px 38px 60px;
+	    background: #fff;
+	}
+	.exclusive_nailbar_right_side::before, .ethical_left_side::before{
+		content: none;
+	}
+	h2.bent.teamtitle {
+	    font-size: 36px;
+	    padding-bottom: 25px;
+	}
+	.team_tab_slide_area .tab button {
+	    font-size: 18px;
+	    margin: 0 7px;
+	}
+	.team_tab_slide_area .tab button.activatetab {
+	    padding: 0px 8px;
+	}
+	.tabcontent_team_items .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .tabcontent_team_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i{
+		left: 0;
+	}
+	.tabcontent_team_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+		left: auto;
+	    right: 0px;
+	}
+
+	/*Portfolio page*/
+	.about_portfolio_area .container{
+		padding: 0;
+		overflow-x: hidden;
+	}
+	.portfolio_img_area {
+	    margin: 44px 0 15px;
+	    padding-bottom: 25px;
+	}
+	.about_port_single_item .col-md-6:first-child {
+	    order: 2;
+	}
+	.about_portfolio_item_img {
+	    margin-bottom: 0;
+	}
+	.about_portfolio_items .slick-list.draggable {
+	    height: auto !important;
+	}
+	.about_portfolio_item_text {
+	    padding: 57px 40px 65px;
+	}
+	.about_portfolio_items .top-custom-arrow.slick-custom-arrow-left.slick-arrow i, .about_portfolio_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    top: 27%;
+	    left: 20px;
+	    margin-top: -27px;
+	    color: #fff;
+	}
+	.about_portfolio_items .top-custom-arrow.slick-custom-arrow-right.slick-arrow i {
+	    left: auto;
+	    right: 20px;
+	}
+	.big_gallery_img {
+	    width: 100%;
+	}
+
+	/*About us page*/
+	.love_to_work_text.beboss_block {
+	    padding: 50px 38px 32px;
+	}
+	.about_port_single_item.mobile_column_order .row {
+		flex-direction: column-reverse;
+	}
+	.abt_commont_mr {
+	    margin: 0 0 30px;
+	}
+	.about_us_area .about_port_single_item, section#you_do_you{
+		margin: 0;
+	}
+
+	/*contact us page*/
+	.mobile_map_area {
+	    text-align: center;
+	}
+	.contact_us_area {
+	    margin: 0 0 30px;
+	}
+	.team_tab_slide_area .tab {
+	    margin: 0;
+	    padding-top: 40px;
+	}
+	.contact_info_left_side {
+	    padding: 0px 20px;
+	}
+	.contact_us_area .professional_team_heading_box, .contact_map_right_side {
+	    display: none;
+	}
+	p.contact_desc {
+    	margin: 20px 0 25px;
+	}
+	.opening_times h4 span {
+	    display: block;
+	}
+
+}
+
+/* Wide Mobile Layout */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/*home page*/
+	.if_avalable {
+	    position: absolute;
+	    left: 40%;
+	}
+}
